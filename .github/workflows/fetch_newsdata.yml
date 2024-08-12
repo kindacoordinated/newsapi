@@ -37,4 +37,4 @@ jobs:
         git commit -m "Add news data JSON for ${today}"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}  # Use GitHub token for authentication
